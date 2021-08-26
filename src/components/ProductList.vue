@@ -33,7 +33,7 @@ export default {
         products:Array
     },
     methods:{
-        handleDelete(){
+        handleDelete(product){
             this.$emit("delete:product",product)
         },
         handleUpdate(){
